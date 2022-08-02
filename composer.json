@@ -8,6 +8,6 @@
         "slim/csrf": "^0.8.3",
         "solarium/solarium": "^4.2",
         "league/event": "^2.2",
-        "ext-xsl": "^7.3.33"
+        "ext-xsl": "*"
     }
 }
