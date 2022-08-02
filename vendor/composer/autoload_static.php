@@ -7,6 +7,7 @@ namespace Composer\Autoload;
 class ComposerStaticInit4b9569c966d6a1d4516363e7ff8c8ece
 {
     public static $files = array (
+        'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
     );
 
@@ -17,7 +18,8 @@ class ComposerStaticInit4b9569c966d6a1d4516363e7ff8c8ece
         ),
         'S' => 
         array (
-            'Symfony\\Contracts\\' => 18,
+            'Symfony\\Polyfill\\Php80\\' => 23,
+            'Symfony\\Contracts\\EventDispatcher\\' => 34,
             'Symfony\\Component\\EventDispatcher\\' => 34,
             'Solarium\\' => 9,
             'Slim\\Csrf\\' => 10,
@@ -52,9 +54,13 @@ class ComposerStaticInit4b9569c966d6a1d4516363e7ff8c8ece
         array (
             0 => __DIR__ . '/..' . '/violet/streaming-json-encoder/src',
         ),
-        'Symfony\\Contracts\\' => 
+        'Symfony\\Polyfill\\Php80\\' => 
         array (
-            0 => __DIR__ . '/..' . '/symfony/contracts',
+            0 => __DIR__ . '/..' . '/symfony/polyfill-php80',
+        ),
+        'Symfony\\Contracts\\EventDispatcher\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/event-dispatcher-contracts',
         ),
         'Symfony\\Component\\EventDispatcher\\' => 
         array (
@@ -103,6 +109,8 @@ class ComposerStaticInit4b9569c966d6a1d4516363e7ff8c8ece
     );
 
     public static $classMap = array (
+        'Attribute' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
+        'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'EasyPeasyICS' => __DIR__ . '/..' . '/phpmailer/phpmailer/extras/EasyPeasyICS.php',
         'FPDF_TPL' => __DIR__ . '/..' . '/setasign/fpdi/fpdf_tpl.php',
         'FPDI' => __DIR__ . '/..' . '/setasign/fpdi/fpdi.php',
@@ -113,7 +121,11 @@ class ComposerStaticInit4b9569c966d6a1d4516363e7ff8c8ece
         'PHPMailerOAuth' => __DIR__ . '/..' . '/phpmailer/phpmailer/class.phpmaileroauth.php',
         'PHPMailerOAuthGoogle' => __DIR__ . '/..' . '/phpmailer/phpmailer/class.phpmaileroauthgoogle.php',
         'POP3' => __DIR__ . '/..' . '/phpmailer/phpmailer/class.pop3.php',
+        'PhpToken' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/PhpToken.php',
         'SMTP' => __DIR__ . '/..' . '/phpmailer/phpmailer/class.smtp.php',
+        'Stringable' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Stringable.php',
+        'UnhandledMatchError' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/UnhandledMatchError.php',
+        'ValueError' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/ValueError.php',
         'fpdi_pdf_parser' => __DIR__ . '/..' . '/setasign/fpdi/fpdi_pdf_parser.php',
         'ntlm_sasl_client_class' => __DIR__ . '/..' . '/phpmailer/phpmailer/extras/ntlm_sasl_client.php',
         'pdf_context' => __DIR__ . '/..' . '/setasign/fpdi/pdf_context.php',
